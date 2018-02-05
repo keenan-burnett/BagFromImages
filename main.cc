@@ -39,7 +39,7 @@ int main(int argc, char **argv)
     // Output bag
     rosbag::Bag bag_out(argv[4],rosbag::bagmode::Write);
 
-    ros::Time t = ros::Time::now();
+    ros::Time t = ros::TIME_MIN;
 
     const float T=1.0f/freq;
     ros::Duration d(T);
