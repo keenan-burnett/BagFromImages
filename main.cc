@@ -5,8 +5,8 @@
 #include<sensor_msgs/Image.h>
 #include<std_msgs/Time.h>
 #include<std_msgs/Header.h>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/image_encodings.h>
 
