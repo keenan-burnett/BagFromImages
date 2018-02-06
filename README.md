@@ -4,7 +4,7 @@ ROS package to generate a rosbag from a collection of images. Images are ordered
 
 The bag will publish the images to topic `/camera/image_raw`.
 
-Tested in ROS Fuerte.
+Tested in ROS Kinetic + OpenCV 3.3.1 + C++ 11
 
 ## Installation
 
