@@ -18,10 +18,9 @@ In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
 
 ## Usage:
 
-    rosrun BagFromImages main PATH_TO_IMAGES IMAGE_EXTENSION FREQUENCY PATH_TO_OUPUT_BAG
+    rosrun BagFromImages main PATH_TO_VEC_FILE FREQUENCY PATH_TO_OUPUT_BAG
   
- - `PATH_TO_IMAGES`: Path to the folder with the images
- - `IMAGE_EXTENSION`: .jpg, .png, etc. write the dot "."
+ - `PATH_TO_VEC_FILE`: Path to a .dat file while contains the absolute path of each image, one per line
  - `FREQUENCY`: Frames per second.
  - `PATH_TO_OUTPUT_BAG`: Path to save the bag (including the filename e.g. directory/filename.bag)
 
